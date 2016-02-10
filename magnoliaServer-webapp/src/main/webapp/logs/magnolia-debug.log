@@ -2597,3 +2597,18 @@ INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2016 18:38:22 -- Initiali
 INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2016 18:38:22 -- Initializing filter [modelExecution]
 INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2016 18:38:22 -- Initializing filter [rendering]
 WARN   info.magnolia.jcr.node2bean.impl.Node2BeanTransformerImpl 10.02.2016 18:38:39 -- Will use deprecated add method [addLocale] to populate [locales] in bean class [info.magnolia.cms.i18n.DefaultI18nContentSupport].
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:54 -- Stopping module ui-contentapp
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:54 -- Stopping module ui-admincentral
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:54 -- Stopping module task-management
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:54 -- Stopping module ui-mediaeditor
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:54 -- Stopping module scheduler
+INFO   info.magnolia.module.scheduler.JobDefinition 10.02.2016 19:11:54 -- Waiting up to 30 seconds for scheduled jobs to stop...
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:55 -- Stopping module imaging
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:55 -- Stopping module ui-framework
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:55 -- Stopping module rendering
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:55 -- Stopping module config
+INFO   info.magnolia.dirwatch.DirectoryWatcherService 10.02.2016 19:11:55 -- DirectoryWatcherService terminated.
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:55 -- Stopping module cache
+INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:55 -- Stopping module core
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2016 19:11:55 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2016 19:11:55 -- Shutting down repository bound to 'webapp'
