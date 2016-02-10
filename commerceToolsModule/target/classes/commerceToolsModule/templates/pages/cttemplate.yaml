@@ -1,0 +1,7 @@
+templateScript: /commerceToolsModule/templates/pages/cttemplate.ftl
+renderType: freemarker
+visible: true
+title: Commerce Tools Template
+dialog: commerceToolsModule:pages/cttemplate
+modelClass: com.sauloborges.model.CTtemplateModel
+
