@@ -1,5 +1,0 @@
-templateScript: /commerceToolsModule/templates/pages/cttemplate-static.ftl
-renderType: freemarker
-visible: true
-title: Commerce Tools Template Static
-
