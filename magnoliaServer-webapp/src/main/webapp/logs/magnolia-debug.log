@@ -2612,3 +2612,151 @@ INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:55 -- Stopping mo
 INFO   info.magnolia.module.ModuleManagerImpl 10.02.2016 19:11:55 -- Stopping module core
 INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2016 19:11:55 -- Shutting down JCR
 INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2016 19:11:55 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.cms.beans.config.ConfigLoader 11.02.2016 12:36:13 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:13 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:13 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 11.02.2016 12:36:13 -- Loading repository at /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp/repositories/magnolia (config file: /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-derby-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:16 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:16 -- Loading workspace profiles (logical name profiles).
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:16 -- Loading workspace resources (logical name resources).
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:17 -- Loading workspace imaging (logical name imaging).
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:17 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:17 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:17 -- Loading workspace messages (logical name messages).
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:36:17 -- Loading workspace tasks (logical name tasks).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 11.02.2016 12:36:18 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.i18nsystem.DefaultMessageBundlesLoader 11.02.2016 12:36:18 -- 
+------------------------------------
+Duplicated keys found while loading message bundles from ./mgnl-i18n :
+------------------------------------
+Number of duplicates based on key pattern <key>_<locale>_<bundle-url>: 6
+Number of duplicates based on key pattern <key>_<locale>: 6
+Number of duplicates based on key pattern <key>: 1
+To get more details concerning the keys, raise the log level to 'DEBUG' for info.magnolia.i18nsystem.DefaultMessageBundlesLoader.
+If you encounter a large number of duplicates, it's possible that you are running in a development environment where you have multiple copies of the web-apps in the overlays folder of your web-app.
+URLs of the affected files creating duplicate entries:
+jar:file:/Users/sauloborges/.m2/repository/info/magnolia/ui/magnolia-ui-admincentral/5.4/magnolia-ui-admincentral-5.4.jar!/mgnl-i18n/messages_de.properties
+jar:file:/Users/sauloborges/.m2/repository/info/magnolia/ui/magnolia-ui-admincentral/5.4/magnolia-ui-admincentral-5.4.jar!/mgnl-i18n/messages_en.properties
+jar:file:/Users/sauloborges/.m2/repository/info/magnolia/ui/magnolia-ui-admincentral/5.4/magnolia-ui-admincentral-5.4.jar!/mgnl-i18n/messages_ja.properties
+jar:file:/Users/sauloborges/.m2/repository/info/magnolia/ui/magnolia-ui-admincentral/5.4/magnolia-ui-admincentral-5.4.jar!/mgnl-i18n/messages_zh_CN.properties
+jar:file:/Users/sauloborges/.m2/repository/info/magnolia/ui/magnolia-ui-admincentral/5.4/magnolia-ui-admincentral-5.4.jar!/mgnl-i18n/shellapp-app-launcher-messages_cs.properties
+jar:file:/Users/sauloborges/.m2/repository/info/magnolia/ui/magnolia-ui-admincentral/5.4/magnolia-ui-admincentral-5.4.jar!/mgnl-i18n/shellapp-app-launcher-messages_es.properties
+------------------------------------
+INFO   info.magnolia.classpathwatch.ClasspathScannerService 11.02.2016 12:36:18 -- Not in dev mode, will not watch resource changes on the classpath.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 11.02.2016 12:36:19 -- Content was found in the repository, will not bootstrap web-app.
+INFO   info.magnolia.jackrabbit.ProviderImpl 11.02.2016 12:36:19 -- Custom node types registered using /mgnl-nodetypes/tasks-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 11.02.2016 12:36:19 -- Custom node types registered using /mgnl-nodetypes/magnolia-message-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 11.02.2016 12:36:19 -- Custom node types registered using /mgnl-nodetypes/magnolia-favorite-nodetypes.xml
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Initializing module core
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Starting module core
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Initializing module freemarker-support
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Initializing module activation
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Initializing module commerceToolsModule
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Initializing module imaging-support
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Initializing module resource-loader
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Initializing module cache
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:19 -- Starting module cache
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:20 -- Initializing module config
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:20 -- Starting module config
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:20 -- Initializing module ehcache
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:20 -- Initializing module rendering
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:20 -- Starting module rendering
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 11.02.2016 12:36:20 -- Setting up YamlConfigurationSource to load TemplateDefinition definitions from resources
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 11.02.2016 12:36:20 -- Registered DefinitionMetadataBuilder.DefinitionMetadataImpl(type=TEMPLATE, referenceId=commerceToolsModule:pages/cttemplate-static, name=cttemplate-static, module=commerceToolsModule, location=/commerceToolsModule/templates/pages/cttemplate-static.yaml, relativeLocation=pages/cttemplate-static) from LayeredResource{path='/commerceToolsModule/templates/pages/cttemplate-static.yaml', layeredResources=[ClasspathResource{path=/commerceToolsModule/templates/pages/cttemplate-static.yaml}]}
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 11.02.2016 12:36:20 -- Registered DefinitionMetadataBuilder.DefinitionMetadataImpl(type=TEMPLATE, referenceId=commerceToolsModule:pages/cttemplate, name=cttemplate, module=commerceToolsModule, location=/commerceToolsModule/templates/pages/cttemplate.yaml, relativeLocation=pages/cttemplate) from LayeredResource{path='/commerceToolsModule/templates/pages/cttemplate.yaml', layeredResources=[ClasspathResource{path=/commerceToolsModule/templates/pages/cttemplate.yaml}]}
+INFO   info.magnolia.resourceloader.file.FileSystemResourceOrigin 11.02.2016 12:36:20 -- Setting up info.magnolia.dirwatch.DirectoryWatcherService@34ec3107 to watch on /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp
+INFO   info.magnolia.dirwatch.DirectoryWatcherService 11.02.2016 12:36:20 -- Starting DirectoryWatcher
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 11.02.2016 12:36:20 -- Setting up YamlConfigurationSource to load Renderer definitions from resources
+INFO   info.magnolia.resourceloader.file.FileSystemResourceOrigin 11.02.2016 12:36:20 -- Setting up info.magnolia.dirwatch.DirectoryWatcherService@34ec3107 to watch on /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:20 -- Initializing module ui-framework
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:20 -- Starting module ui-framework
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 11.02.2016 12:36:22 -- Setting up YamlConfigurationSource to load FormDialogDefinition definitions from resources
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 11.02.2016 12:36:22 -- Registered DefinitionMetadataBuilder.DefinitionMetadataImpl(type=DIALOG, referenceId=commerceToolsModule:pages/cttemplate, name=cttemplate, module=commerceToolsModule, location=/commerceToolsModule/dialogs/pages/cttemplate.yaml, relativeLocation=pages/cttemplate) from LayeredResource{path='/commerceToolsModule/dialogs/pages/cttemplate.yaml', layeredResources=[ClasspathResource{path=/commerceToolsModule/dialogs/pages/cttemplate.yaml}]}
+INFO   info.magnolia.resourceloader.file.FileSystemResourceOrigin 11.02.2016 12:36:22 -- Setting up info.magnolia.dirwatch.DirectoryWatcherService@34ec3107 to watch on /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 11.02.2016 12:36:22 -- Setting up YamlConfigurationSource to load AppDescriptor definitions from resources
+INFO   info.magnolia.resourceloader.file.FileSystemResourceOrigin 11.02.2016 12:36:22 -- Setting up info.magnolia.dirwatch.DirectoryWatcherService@34ec3107 to watch on /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 11.02.2016 12:36:22 -- Setting up YamlConfigurationSource to load FieldTypeDefinition definitions from resources
+INFO   info.magnolia.resourceloader.file.FileSystemResourceOrigin 11.02.2016 12:36:22 -- Setting up info.magnolia.dirwatch.DirectoryWatcherService@34ec3107 to watch on /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Initializing module imaging
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Starting module imaging
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Initializing module scheduler
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Starting module scheduler
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Initializing module templating
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Initializing module ui-mediaeditor
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Starting module ui-mediaeditor
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 11.02.2016 12:36:22 -- Setting up YamlConfigurationSource to load MediaEditorDefinition definitions from resources
+INFO   info.magnolia.resourceloader.file.FileSystemResourceOrigin 11.02.2016 12:36:22 -- Setting up info.magnolia.dirwatch.DirectoryWatcherService@34ec3107 to watch on /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Initializing module task-management
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:22 -- Starting module task-management
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Initializing module templating-jsp
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Initializing module ui-admincentral
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Starting module ui-admincentral
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 11.02.2016 12:36:23 -- Setting up YamlConfigurationSource to load ItemViewDefinition definitions from resources
+INFO   info.magnolia.resourceloader.file.FileSystemResourceOrigin 11.02.2016 12:36:23 -- Setting up info.magnolia.dirwatch.DirectoryWatcherService@34ec3107 to watch on /Users/sauloborges/Projetos/magnoliaServer/magnoliaServer-webapp/src/main/webapp
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Initializing module about-app
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Initializing module pages
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Initializing module security-app
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Initializing module ui-contentapp
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Starting module ui-contentapp
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:36:23 -- Initializing module webapp
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 11.02.2016 12:36:23 -- Loading VirtualURIMapping from /modules/activation/virtualURIMapping
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 11.02.2016 12:36:23 -- Loading VirtualURIMapping from /modules/ui-admincentral/virtualURIMapping
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Catalog [default] registered: [info.magnolia.commands.MgnlCatalog: activate, deactivate]
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Catalog [versioned] registered: [info.magnolia.commands.MgnlCatalog: activate, deactivate]
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Catalog [cache] registered: [info.magnolia.commands.MgnlCatalog: flushNamedCache, flushByUUID, flushAll]
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Adding new command [importZip] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Adding new command [import] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Adding new command [markAsDeleted] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Adding new command [restorePreviousVersion] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Adding new command [export] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Adding new command [delete] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 11.02.2016 12:36:23 -- Catalog [website] registered: [info.magnolia.commands.MgnlCatalog: activate, deactivate]
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 11.02.2016 12:36:23 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 11.02.2016 12:36:23 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 11.02.2016 12:36:23 -- Initializing MIMEMapping from /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 11.02.2016 12:36:24 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 11.02.2016 12:36:24 -- Configuration loaded (took 10 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 11.02.2016 12:36:24 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [context]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [contentType]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [multipartRequest]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [unicodeNormalization]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [login]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [activation]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [gzip]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [channel]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [logout]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [securityCallback]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [csrfSecurity]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [uriSecurity]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [range]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [i18n]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [cache]
+WARN   info.magnolia.module.cache.filter.CacheFilter 11.02.2016 12:36:24 -- The defaultPageCache property is not set for the cache CacheFilter, falling back to defaultPageCache.
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [virtualURI]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [servlets]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [Wrapper for log4j servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [Wrapper for ImagingServlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [Wrapper for AdminCentral servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [cms]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [repositoryMapping]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [contentSecurity]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [aggregator]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [modelExecution]
+INFO   info.magnolia.cms.filters.CompositeFilter 11.02.2016 12:36:24 -- Initializing filter [rendering]
+WARN   info.magnolia.jcr.node2bean.impl.Node2BeanTransformerImpl 11.02.2016 12:39:02 -- Will use deprecated add method [addLocale] to populate [locales] in bean class [info.magnolia.cms.i18n.DefaultI18nContentSupport].
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:42 -- Stopping module ui-contentapp
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:42 -- Stopping module ui-admincentral
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:42 -- Stopping module task-management
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:42 -- Stopping module ui-mediaeditor
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:42 -- Stopping module scheduler
+INFO   info.magnolia.module.scheduler.JobDefinition 11.02.2016 12:39:42 -- Waiting up to 30 seconds for scheduled jobs to stop...
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:43 -- Stopping module imaging
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:43 -- Stopping module ui-framework
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:43 -- Stopping module rendering
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:43 -- Stopping module config
+INFO   info.magnolia.dirwatch.DirectoryWatcherService 11.02.2016 12:39:43 -- DirectoryWatcherService terminated.
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:43 -- Stopping module cache
+INFO   info.magnolia.module.ModuleManagerImpl 11.02.2016 12:39:43 -- Stopping module core
+INFO   info.magnolia.repository.DefaultRepositoryManager 11.02.2016 12:39:43 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 11.02.2016 12:39:43 -- Shutting down repository bound to 'webapp'
